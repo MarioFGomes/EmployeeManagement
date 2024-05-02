@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{477409BE-A1F0-429E-9845-568DB6F345AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "teste", "teste", "{3581F5B3-9D5D-4E69-B633-35E67F5D38A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Infrastructure", "src\EmployeeManagement.Infrastructure\EmployeeManagement.Infrastructure.csproj", "{1EB18949-92C8-4767-BAE1-25D02BEA4852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Aplication", "src\EmployeeManagement.Aplication\EmployeeManagement.Aplication.csproj", "{3A9235A3-7B8A-4473-9CE1-DEDB081B8B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Domain", "src\EmployeeManagement.Domain\EmployeeManagement.Domain.csproj", "{813E7246-AB4B-42F5-A4AA-CFAF10833053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.CrossCutting", "src\EmployeeManagement.CrossCutting\EmployeeManagement.CrossCutting.csproj", "{C405EB6B-E954-45DD-AA36-9CEFD52C754F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.API", "src\EmployeeManagement.API\EmployeeManagement.API.csproj", "{24E22903-4D16-4953-B391-1124F9E830C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EB18949-92C8-4767-BAE1-25D02BEA4852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB18949-92C8-4767-BAE1-25D02BEA4852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB18949-92C8-4767-BAE1-25D02BEA4852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB18949-92C8-4767-BAE1-25D02BEA4852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9235A3-7B8A-4473-9CE1-DEDB081B8B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9235A3-7B8A-4473-9CE1-DEDB081B8B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9235A3-7B8A-4473-9CE1-DEDB081B8B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9235A3-7B8A-4473-9CE1-DEDB081B8B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813E7246-AB4B-42F5-A4AA-CFAF10833053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813E7246-AB4B-42F5-A4AA-CFAF10833053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813E7246-AB4B-42F5-A4AA-CFAF10833053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813E7246-AB4B-42F5-A4AA-CFAF10833053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C405EB6B-E954-45DD-AA36-9CEFD52C754F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C405EB6B-E954-45DD-AA36-9CEFD52C754F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C405EB6B-E954-45DD-AA36-9CEFD52C754F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C405EB6B-E954-45DD-AA36-9CEFD52C754F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E22903-4D16-4953-B391-1124F9E830C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E22903-4D16-4953-B391-1124F9E830C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E22903-4D16-4953-B391-1124F9E830C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E22903-4D16-4953-B391-1124F9E830C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1EB18949-92C8-4767-BAE1-25D02BEA4852} = {477409BE-A1F0-429E-9845-568DB6F345AB}
+		{3A9235A3-7B8A-4473-9CE1-DEDB081B8B24} = {477409BE-A1F0-429E-9845-568DB6F345AB}
+		{813E7246-AB4B-42F5-A4AA-CFAF10833053} = {477409BE-A1F0-429E-9845-568DB6F345AB}
+		{C405EB6B-E954-45DD-AA36-9CEFD52C754F} = {477409BE-A1F0-429E-9845-568DB6F345AB}
+		{24E22903-4D16-4953-B391-1124F9E830C1} = {477409BE-A1F0-429E-9845-568DB6F345AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD3578AA-14D0-4121-9D70-D75F957ED952}
+	EndGlobalSection
+EndGlobal
