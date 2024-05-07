@@ -15,9 +15,9 @@ public class Company
     public string NIF { get; set; }
     public StateCompany State {  get; set; }
 
-    public Company(string name,string description,string phone, IEnumerable<Address> _address,string nif)
+    public Company(Guid id,string name,string description,string phone, IEnumerable<Address> _address,string nif)
     {
-        Id = Guid.NewGuid();
+        Id = id;
         Name = name;
         Description = description;
         Phone = phone;

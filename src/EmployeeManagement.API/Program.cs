@@ -1,5 +1,7 @@
-
+using EmployeeManagement.Aplication.Validators;
 using EmployeeManagement.CrossCutting.Repository;
+using EmployeeManagement.CrossCutting.Services;
+using EmployeeManagement.CrossCutting.Validators;
 
 namespace EmployeeManagement.API; 
 public class Program {
@@ -13,6 +15,9 @@ public class Program {
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.AddRepositories();
+        builder.Services.AddValidators();
+        builder.Services.AddControllers(options=>options.Filters.Add(typeof (ActionValidationAttribute)));
+        builder.Services.AddServices();
 
         var app = builder.Build();
 
